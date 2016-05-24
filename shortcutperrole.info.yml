@@ -1,6 +1,7 @@
-name: shortcutperrole
+name: Shortcut per Role
 type: module
 description: 'Allows creating default shortcut per role'
 core: '8.x'
+configure: shortcutperrole.admin_config
 dependencies:
   - shortcut
