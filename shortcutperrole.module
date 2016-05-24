@@ -1,0 +1,24 @@
+<?php
+
+/**
+ * @file
+ * Contains shortcutperrole.module..
+ */
+
+use Drupal\Core\Routing\RouteMatchInterface;
+
+/**
+ * Implements hook_help().
+ */
+function shortcutperrole_help($route_name, RouteMatchInterface $route_match) {
+  switch ($route_name) {
+    // Main module help for the shortcutperrole module.
+    case 'help.page.shortcutperrole':
+      $output = '';
+      $output .= '<h3>' . t('About') . '</h3>';
+      $output .= '<p>' . t('Allows creating default shortcut per role') . '</p>';
+      return $output;
+
+    default:
+  }
+}

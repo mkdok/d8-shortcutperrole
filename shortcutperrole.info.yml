@@ -1,0 +1,6 @@
+name: shortcutperrole
+type: module
+description: 'Allows creating default shortcut per role'
+core: '8.x'
+dependencies:
+  - shortcut
